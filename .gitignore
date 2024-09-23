@@ -26,7 +26,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
+.env        # Ignore the .env file in the root directory
+.env*.local # Ignore local env files
+.env.development
+.env.production
+.env.test
 
 # vercel
 .vercel
